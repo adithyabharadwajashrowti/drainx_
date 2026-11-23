@@ -10,7 +10,7 @@ import requests
 
 from common import env, get_db
 
-TOKEN = env("TELEGRAM_BOT_TOKEN")
+TOKEN = env("BOT_TOKEN")
 API = f"https://api.telegram.org/bot{TOKEN}"
 ICONS = {"flood_forecast": "🌧️", "quality": "🧪", "gate": "🚰", "pit": "🟦", "pothole": "🕳️"}
 
