@@ -2,3 +2,9 @@
 __pycache__/
 *.pt
 _run.*
+.venv/
+**/.venv/
+node_modules/
+**/node_modules/
+dist/
+**/dist/
